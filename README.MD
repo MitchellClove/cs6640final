@@ -1,0 +1,5 @@
+### How to execute the code
+You may need to install some dependencies. Run ```pip install -r requirements.txt```
+To execute the code, you can simply run the project.ipynb. This will show the 4 simple models. This will take a few minutes because a new neural network will be trained, as well as the other models which don't take as long.
+
+To run the graph neural network models, navigate to molecularGNNN_smiles/main, then run predict.py. There are a few saved pickle models in the molecularGNN_smiles/output folder, which can be swapped out, but I left the most effective one as the default. Simply run the predict.py and it will predict. To train new models, you can run the train.py after adjusting the hyperparameters, but this can take several minutes to hours, so I would recommend sticking to the default model.

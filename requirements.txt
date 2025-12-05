@@ -1,0 +1,7 @@
+pandas
+tensorflow[and-cuda]
+scikit-learn
+ydf
+torch 
+torchvision
+rdkit
